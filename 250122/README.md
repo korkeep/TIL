@@ -20,7 +20,7 @@ REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
 ubuntu       22.04     a24be041d957   4 weeks ago      77.9MB
 ```
 
-3. 실행중인 컨테이너 확인인
+3. 실행중인 컨테이너 확인
 
 ```bash
 ubuntu@ubuntu:~/dreamhack/876$ sudo docker ps
@@ -28,7 +28,7 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS       
 fbea6f5debc9   876       "/bin/sh -c 'socat -…"   46 seconds ago   Up 44 seconds   2222/tcp   876
 ```
 
-4. 실행중인 컨테이너에 접속속
+4. 실행중인 컨테이너에 접속
 
 ```bash
 ubuntu@ubuntu:~/dreamhack/876$ sudo docker exec -it 876 bash
