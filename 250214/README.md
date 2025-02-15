@@ -1,6 +1,6 @@
 ## cookie
 > 문제 URL: https://dreamhack.io/wargame/challenges/6  
-> 자바스크립트는 **`document.cookie`** 속성을 이용하여 쿠키를 **`create`**, **`delete`**할 수 있음  
+> 자바스크립트는 `document.cookie` 속성을 이용하여 쿠키를 `create`, `delete`할 수 있음  
 
 ### create
 ```js
