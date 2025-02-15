@@ -1,11 +1,15 @@
 ## cookie
-자바스크립트는 **document.cookie** 속성을 이용하여 쿠키를 **create**, **delete**할 수 있음  
+> 문제 URL: https://dreamhack.io/wargame/challenges/6  
+> 자바스크립트는 **`document.cookie`** 속성을 이용하여 쿠키를 **`create`**, **`delete`**할 수 있음  
 
 ### create
 ```js
 // 쿠키 스트링: name=user, value=admin
 // 속성값: path, expires
-document.cookie = "user=admin; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+let currentDate = new Date();
+currentDate.setHours(currentDate.getHours() + 1);
+let expires = currentDate.toUTCString();
+document.cookie = "user=admin; expires="+expires+"; path=/";
 ```
 
 ### delete
