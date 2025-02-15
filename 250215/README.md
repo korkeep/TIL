@@ -1,6 +1,6 @@
 ## file-download-1
 > 문제 URL: https://dreamhack.io/wargame/challenges/37  
-> File Download 취약점이 존재하는 웹 서비스에서 flag.py를 다운로드 받으면 플래그를 획득
+> `File Download` 취약점이 존재하는 웹 서비스에서 `flag.py`를 다운로드 받으면 플래그를 획득
 
 ### app.py
 ```python
