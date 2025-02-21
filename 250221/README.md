@@ -1,5 +1,5 @@
 ## Carve Party
-> 문제 URL: https://dreamhack.io/wargame/challenges/96
+> 문제 URL: https://dreamhack.io/wargame/challenges/96  
 > 할로윈 파티를 기념하기 위해 호박을 준비했습니다! 호박을 10000번 클릭하고 플래그를 획득하세요!
 
 ### Solve
@@ -85,7 +85,7 @@ $(function() {
 });
 ```
 
-3. `DOM 준비 완료 후 실행되는 콜백 함수`를 아래와 같이 수정정
+3. `DOM 준비 완료 후 실행되는 콜백 함수`를 아래와 같이 수정
 ```js
 $(function() {
     while (counter < 10000) {
